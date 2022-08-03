@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar {
+  background-color: rgba(27, 85, 131, 0.5);
+}
+.navbar a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  font-family: "Roboto", sans-serif;
+}
+
+.ofrecemos__articulo {
+  width: 80%;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  overflow-y: auto;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.empresas__tiulo--xl {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  margin: 70px 20px;
+  color: black;
+}
+
+.empresas__articulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.empresas__img {
+  margin-right: 20px;
+}
+
+.empresas__cuerpo {
+  background-color: #FBFBFB;
+}
+
+@media (min-width: 280px) and (max-width: 376px) {
+  .empresas__tiulo--xl {
+    font-size: 1em;
+  }
+  .empresas__img {
+    margin-right: auto;
+    width: 100%;
+  }
+}
+.contacto__articulo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.contacto__titulo--xl {
+  font-size: 1.5em;
+  color: black;
+  padding: 40px 10px;
+  margin: 10px 10px;
+}
+
+.contacto__titulo--l {
+  font-size: 1em;
+  color: #1B068B;
+  margin: 10px 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.contacto__text--md {
+  font-size: 1em;
+  display: table;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 280px) and (max-width: 401px) {
+  .map {
+    width: 100%;
+  }
+}
+.sugerencia__titulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  margin: 1px 20px;
+}
+
+.bg-blue {
+  background-color: rgba(27, 85, 131, 0.5);
+}
+
+.pie {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #5E5E5E;
+  margin-top: 50px;
+}
+
+.pie__icon--sm {
+  width: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

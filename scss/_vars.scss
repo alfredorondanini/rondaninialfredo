@@ -1,0 +1,65 @@
+$maincolor:rgba(27, 85, 131, 0.5);
+$secundaricolor:#1E3F46;
+$blue:#1B068B;
+$white:#FBFBFB;
+$black:#080808;
+
+
+
+$w-100:100%;
+$w-40:40px;
+
+
+// mixins
+
+@mixin text($fontsize, $linehight, $color){
+	font-size: $fontsize;
+	line-height: $linehight;	
+	font-family: $fontmain;
+
+}
+
+
+@mixin flex($justify, $aling, $direction){
+    display: flex;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-direction: $direction
+
+
+
+}
+
+
+@mixin d-flex($aling, $direction){
+    display: flex;    
+    align-items: $aling;
+    flex-direction: $direction
+
+
+
+}
+
+
+
+// map
+
+
+$colores:(
+     
+     'a':#1B068B,
+     'b':#291E46,
+     'c':#5E5E5E,
+     'd':#4EF8C0,
+     'e':#42424F,
+
+	);
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+.pie{
+   padding:30px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-color: map-get($map:$colores,$key:'c');
+   margin-top: 50px;
+
+}
+
+.pie__icon--sm{
+   width: $w-40;
+}
